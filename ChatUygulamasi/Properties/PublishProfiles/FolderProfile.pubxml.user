@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_NewBackgroundProfile>True</_NewBackgroundProfile>
+    <_PublishTargetUrl>C:\inetpub\wwwroot\chatdeneme</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/ChatUygulamasi.dll">
+      <publishTime>04/26/2018 14:50:39</publishTime>
+    </File>
+    <File Include="bin/ChatUygulamasi.pdb">
+      <publishTime>04/26/2018 14:50:39</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.SignalR.Core.dll">
+      <publishTime>07/24/2014 03:37:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.SignalR.SystemWeb.dll">
+      <publishTime>07/24/2014 03:37:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>07/24/2014 03:37:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>07/24/2014 03:37:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>07/24/2014 03:37:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/24/2014 03:43:15</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>07/24/2014 03:37:04</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>07/24/2014 03:37:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>07/24/2014 03:31:06</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>07/24/2014 03:31:06</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>07/24/2014 03:31:05</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>07/24/2014 03:31:06</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>07/24/2014 03:31:06</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>07/24/2014 03:31:06</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>07/24/2014 03:31:04</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>07/24/2014 03:54:56</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.6.4.js">
+      <publishTime>07/24/2014 03:37:07</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.6.4.min.js">
+      <publishTime>07/24/2014 03:37:07</publishTime>
+    </File>
+    <File Include="Scripts/jquery.signalR-2.1.0.js">
+      <publishTime>07/24/2014 03:37:08</publishTime>
+    </File>
+    <File Include="Scripts/jquery.signalR-2.1.0.min.js">
+      <publishTime>07/24/2014 03:37:08</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>07/24/2014 03:54:55</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>07/24/2014 03:54:55</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>07/24/2014 03:54:56</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>07/24/2014 03:54:56</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>04/26/2018 00:27:13</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>07/24/2014 03:31:04</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/26/2018 14:50:39</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

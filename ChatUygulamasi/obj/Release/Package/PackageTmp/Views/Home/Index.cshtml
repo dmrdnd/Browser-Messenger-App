@@ -1,0 +1,176 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <script src="~/Scripts/jquery-1.6.4.min.js"></script>
+    <script src="~/Scripts/jquery.signalR-2.1.0.min.js"></script>
+    <script src="~/SignalR/Hubs"></script>
+    <script>
+        $(function ()
+        {
+            var isim = window.prompt("Nick giriniz:");//açılır pencere
+            var chat = $.connection.chatHub;
+            var $message = $('#txtMessage');
+            var kime = $('#txtistek');
+            var tmp;
+            var gonderen1;
+            $('#baslık').append('<li> HOŞGELDİN  <strong>'  + isim + '</strong> '+ ""+ '</li>');
+            $("#btnSendMessage").prop("disabled", true);//mesaj butonlarını pasifleştir
+
+
+
+            chat.client.ekranamsjyaz = function (name, message) {//ekrana mesaj yazdırdı
+
+                $('#post').append('<li><strong>'+ name + '</strong>: ' + message + '</li>');
+
+            };
+
+
+            chat.client.online = function (kullanıcılar) {//online için
+
+                $("#liste").empty();
+                for (var i = 0; i < kullanıcılar.length; i++) {
+                   
+                    $("#liste").append('<li><strong>' + kullanıcılar[i].nick + '</strong>: ' + " ONLINE" + '</li>');                
+                }
+                
+            };
+
+
+            chat.client.istekal = function (gonderen) {
+                var yanıt=window.confirm(gonderen + " size mesaj isteği gönderdi!");
+              
+                if (yanıt) {
+                    chat.server.isteksonuc(gonderen, 1);
+                    $("#btnSendMessage").prop("disabled", false);
+                    document.getElementById('lblkonusulan').innerHTML = gonderen;
+                    gonderen1 = gonderen;
+                    tmp= 1;
+
+                } 
+                else {
+                    chat.server.isteksonuc(gonderen, 2);
+                }
+            }
+
+            chat.client.isteksonuc = function (cvp) {
+
+                if (cvp == 1) {
+                    alert("istek onaylandı");
+                    $("#btnSendMessage").prop("disabled", false);
+                    document.getElementById('lblkonusulan').innerHTML = kime.val();
+                    tmp = 0;
+                }
+                else {
+                    alert("istek reddedildi");
+                    $("#btnSendMessage").prop("disabled", true);
+                }
+            }
+
+
+
+
+            $.connection.hub.start().done(function ()
+            {
+                
+                $message.focus();
+                $('#btnSendMessage').click(function ()
+                {
+
+                    if (tmp== 1) {
+
+                        chat.server.send(isim, $message.val(), gonderen1);
+                    }
+                    else {
+                        chat.server.send(isim, $message.val(), kime.val());                       
+                    }
+
+                     $message.val('').focus();
+                });
+
+
+                $('#btnkapat').click(function () {
+   
+                    window.close();
+                });
+
+                $('#btnistekyolla').click(function () {
+                   
+                    chat.server.istekyolla(kime.val());
+
+                });
+
+                chat.server.baglan(isim);//kaydolması için
+
+            });
+        });
+
+    </script>
+</head>
+<style type="text/css">
+    
+    #temel {
+        width: 900px;
+        background-color: #f4f4f4;
+    }
+
+    #baslık {
+        width: 900px;
+        background-color: #ccc;
+        height: 100px;
+        margin-bottom: 10px;
+    }
+
+    #post {
+        float: left;
+        width: 530px;
+        background-color: #c6c689;
+        height: 280px;
+        margin-bottom: 10px;
+    }
+
+    #onlinekisiler {
+        float: right;
+        width: 360px;
+        background-color: #d5ba1e;
+        height: 280px;
+        margin-bottom: 10px;
+    }
+
+    .clear {
+        clear: both;
+    }
+
+    #mesajgonderme {
+        width: 900px;
+        background-color: #ccc;
+        height: 50px;
+        margin-bottom: 10px;
+    }
+    
+</style>
+
+<body>
+    <div id="temel">
+        <div id="baslık">ONLINE SOHBET ET <br /> <br />        </div>
+        <div id="post">MESAJLAR: <br />  </div>
+        <div id="onlinekisiler">ONLINE KİŞİLER  <br /><br /> 
+            <div id="liste">
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div id="mesajgonderme">Mesajınızı Giriniz:
+           <br />
+          @Html.TextBox("txtMessage") <button id="btnSendMessage">Mesaj Yolla</button>  
+          &nbsp;&nbsp;<label id="lblkonusulan"></label>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          Mesaj isteği yollanacak kişi: @Html.TextBox("txtistek")<button id="btnistekyolla">istek Yolla</button>
+        </div>
+    </div>
+    <div id="messages"></div>
+ <input id="btnkapat" type="button" value="Oturumu Kapat" />
+</body>
+</html>

@@ -1,0 +1,242 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <script src="~/Scripts/jquery-1.6.4.min.js"></script>
+    <script src="~/Scripts/jquery.signalR-2.1.0.min.js"></script>
+    <script src="~/SignalR/Hubs"></script>
+    <script>
+
+        $(function () {
+            var isim = window.prompt("Nick giriniz:");//açılır pencere
+            var chat = $.connection.chatHub;
+            var $message = $('#txtMessage');
+            var $topluMessage = $('#txtTopluMessage');
+            var secilen;
+            var tmp;
+            var gonderen1;
+          
+            $('#baslık').append('<li> HOŞGELDİN  <strong>' + isim + '</strong> ' + "" + '</li>');
+            $("#btnSendMessage").prop("disabled", true);//mesaj butonlarını pasifleştir
+
+            chat.client.ekranamsjyaz = function (name, message) {//ekrana mesaj yazdırdı
+
+                $('#textarea2').append('<li><strong>' + name + '</strong>: ' + message + '</li>');
+                $("#txtMessage").val('');
+
+            };
+
+            alert("fvdvg");
+
+            chat.client.ekranaToplumsjyaz = function (name, message) {//ekrana toplu mesaj yazdırdı
+
+                $('#textarea').append('<li><strong>' + name + '</strong>: ' + message + '</li>');
+                $("#txtTopluMessage").val('');
+             };
+
+
+            chat.client.online = function (kullanıcılar) {//online için
+
+                // $("#liste").empty();
+                var ddl = document.getElementById("listbox");
+                ddl.options.length = 0;
+
+
+                for (var i = 0; i < kullanıcılar.length; i++) {
+
+                    if (kullanıcılar[i].nick != isim) {
+
+                        var option = document.createElement("OPTION");
+                        var ad = kullanıcılar[i].nick;
+                        option.innerHTML = ad;
+                        option.value = ad;
+                        ddl.options.add(option);
+                    }
+
+                }
+
+            };
+
+
+            chat.client.istekal = function (gonderen) {
+                var yanıt = window.confirm(gonderen + " size mesaj isteği gönderdi!");
+
+                if (yanıt) {
+                    chat.server.isteksonuc(gonderen, 1);
+                    $("#btnSendMessage").prop("disabled", false);
+                    document.getElementById('lblkonusulan').innerHTML = gonderen;
+                    gonderen1 = gonderen;
+                    tmp = 1;
+
+                }
+                else {
+                    chat.server.isteksonuc(gonderen, 2);
+                }
+            }
+
+            chat.client.isteksonuc = function (cvp) {
+
+                if (cvp == 1) {
+                    alert("istek onaylandı");
+                    $("#btnSendMessage").prop("disabled", false);
+                    document.getElementById('lblkonusulan').innerHTML = secilen;
+                    tmp = 0;
+                }
+                else {
+                    alert("istek reddedildi");
+                    $("#btnSendMessage").prop("disabled", true);
+                }
+            }
+            chatProxy.client.stopClient = function (userid) {
+                $.connection.hub.stop();
+            };
+
+
+
+
+
+            $.connection.hub.start().done(function () {
+
+                $message.focus();
+                $('#btnSendMessage').click(function () {
+
+                    if (tmp == 1) {
+
+                        chat.server.send(isim, $message.val(), gonderen1);
+                    }
+                    else {
+                        chat.server.send(isim, $message.val(), secilen);
+                    }
+
+                    $message.val('').focus();
+                });
+
+
+                $('#btnkapat').click(function () {
+
+                    var yanıt = confirm("Çıkış yapmak istiyormusunuz?");//exit buton tıklamasının dönen değerinin tutulması
+                    if (yanıt) {
+                        chatProxy.server.disconnected();//server bağlantısının kesilmesi
+                    }
+                   // window.close();
+                });
+
+                $('#btnSendrequest').click(function () {
+
+                    var eleman = document.getElementById("listbox");
+                    secilen = eleman.options[eleman.selectedIndex].text;
+                    chat.server.istekyolla(secilen);
+
+                });
+
+                $('#btnSendTMessage').click(function () {
+
+                    chat.server.topluMesaj(isim, $topluMessage.val());///////()MESAJI YOLLA
+
+                });
+                
+                chat.server.baglan(isim);//kaydolması için
+
+            });
+        });
+
+    </script>
+</head>
+<style type="text/css">
+    #temel {
+        width: 900px;
+        background-color: #f4f4f4;
+    }
+
+    #baslık {
+        width: 900px;
+        background-color: #ccc;
+        height: 85px;
+        margin-bottom: 10px;
+    }
+
+    #post {
+        float: left;
+        width: 601px;
+        background-color: #c6c689;
+        height: 275px;
+        margin-bottom: 10px;
+    }
+
+    #toplupost {
+        float: left;
+        width: 601px;
+        background-color: #c6c689;
+        height: 275px;
+        margin-bottom: 10px;
+    }
+
+    #onlinekisiler {
+        float: right;
+        width: 290px;
+        background-color: #d5ba1e;
+        height: 560px;
+        margin-bottom: 10px;
+        position: relative;
+        top: -285px;
+    }
+
+    .clear {
+        clear: both;
+    }
+
+    #mesajgonderme {
+        width: 900px;
+        background-color: #ccc;
+        height: 50px;
+        margin-bottom: 10px;
+        position: relative;
+        top: -290px;
+    }
+
+    #toplumesajgonderme {
+        float: left;
+        width: 600px;
+        background-color: #c6c689;
+        height: 50px;
+        margin-bottom: 10px;
+        //position: relative;
+        top: 210px;
+    }
+</style>
+
+<body>
+    <div id="temel">
+        <div id="baslık">
+            ONLINE SOHBET ET
+            <br /> <br />
+        </div>
+        <div id="toplupost">
+            TOPLU MESAJLAR: <br />
+            <textarea rows="13" cols="79" id="textarea"></textarea>
+            <div id="toplumesajgonderme">
+                Mesajınızı Giriniz:
+                <br />
+                @Html.TextBox("txtTopluMessage") <button id="btnSendTMessage">Toplu Mesaj Yolla</button>
+            </div>
+        </div>
+        <div id="post">
+            ÖZEL MESAJLAR: <br />
+            <textarea rows="13" cols="79" id="textarea2"></textarea>
+            Mesajınızı Giriniz:
+            <br />
+            @Html.TextBox("txtMessage") <button id="btnSendMessage">Mesaj Yolla</button> <label id="lblkonusulan"></label>
+        </div>
+        <div id="onlinekisiler">
+            ONLINE KİŞİLER  <br /><br />
+            <select id="listbox">   </select>
+            <button id="btnSendrequest">Mesaj İsteği Yolla</button> <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input id="btnkapat" type="button" value="Oturumu Kapat" />
+        </div>
+
+        <div class="clear"></div>
+
+</body>
+</html>

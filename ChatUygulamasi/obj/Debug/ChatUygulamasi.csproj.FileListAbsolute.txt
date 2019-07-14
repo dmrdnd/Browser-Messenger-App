@@ -1,0 +1,225 @@
+c:\users\gencay\documents\visual studio 2013\Projects\ChatUygulamasi\ChatUygulamasi\bin\ChatUygulamasi.dll.config
+c:\users\gencay\documents\visual studio 2013\Projects\ChatUygulamasi\ChatUygulamasi\bin\ChatUygulamasi.dll
+c:\users\gencay\documents\visual studio 2013\Projects\ChatUygulamasi\ChatUygulamasi\bin\ChatUygulamasi.pdb
+c:\users\gencay\documents\visual studio 2013\Projects\ChatUygulamasi\ChatUygulamasi\bin\Microsoft.AspNet.SignalR.Core.dll
+c:\users\gencay\documents\visual studio 2013\Projects\ChatUygulamasi\ChatUygulamasi\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+c:\users\gencay\documents\visual studio 2013\Projects\ChatUygulamasi\ChatUygulamasi\bin\Microsoft.Owin.dll
+c:\users\gencay\documents\visual studio 2013\Projects\ChatUygulamasi\ChatUygulamasi\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\gencay\documents\visual studio 2013\Projects\ChatUygulamasi\ChatUygulamasi\bin\Microsoft.Owin.Security.dll
+c:\users\gencay\documents\visual studio 2013\Projects\ChatUygulamasi\ChatUygulamasi\bin\Microsoft.Web.Infrastructure.dll
+c:\users\gencay\documents\visual studio 2013\Projects\ChatUygulamasi\ChatUygulamasi\bin\Newtonsoft.Json.dll
+c:\users\gencay\documents\visual studio 2013\Projects\ChatUygulamasi\ChatUygulamasi\bin\Owin.dll
+c:\users\gencay\documents\visual studio 2013\Projects\ChatUygulamasi\ChatUygulamasi\bin\System.Web.Helpers.dll
+c:\users\gencay\documents\visual studio 2013\Projects\ChatUygulamasi\ChatUygulamasi\bin\System.Web.Mvc.dll
+c:\users\gencay\documents\visual studio 2013\Projects\ChatUygulamasi\ChatUygulamasi\bin\System.Web.Razor.dll
+c:\users\gencay\documents\visual studio 2013\Projects\ChatUygulamasi\ChatUygulamasi\bin\System.Web.Webpages.Deployment.dll
+c:\users\gencay\documents\visual studio 2013\Projects\ChatUygulamasi\ChatUygulamasi\bin\System.Web.Webpages.dll
+c:\users\gencay\documents\visual studio 2013\Projects\ChatUygulamasi\ChatUygulamasi\bin\System.Web.Webpages.Razor.dll
+c:\users\gencay\documents\visual studio 2013\Projects\ChatUygulamasi\ChatUygulamasi\bin\Microsoft.AspNet.SignalR.Core.xml
+c:\users\gencay\documents\visual studio 2013\Projects\ChatUygulamasi\ChatUygulamasi\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+c:\users\gencay\documents\visual studio 2013\Projects\ChatUygulamasi\ChatUygulamasi\bin\Microsoft.Owin.xml
+c:\users\gencay\documents\visual studio 2013\Projects\ChatUygulamasi\ChatUygulamasi\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\gencay\documents\visual studio 2013\Projects\ChatUygulamasi\ChatUygulamasi\bin\Microsoft.Owin.Security.xml
+c:\users\gencay\documents\visual studio 2013\Projects\ChatUygulamasi\ChatUygulamasi\bin\Newtonsoft.Json.xml
+c:\users\gencay\documents\visual studio 2013\Projects\ChatUygulamasi\ChatUygulamasi\bin\System.Web.Razor.xml
+c:\users\gencay\documents\visual studio 2013\Projects\ChatUygulamasi\ChatUygulamasi\bin\System.Web.Webpages.xml
+c:\users\gencay\documents\visual studio 2013\Projects\ChatUygulamasi\ChatUygulamasi\bin\System.Web.Webpages.Deployment.xml
+c:\users\gencay\documents\visual studio 2013\Projects\ChatUygulamasi\ChatUygulamasi\bin\System.Web.Webpages.Razor.xml
+c:\users\gencay\documents\visual studio 2013\Projects\ChatUygulamasi\ChatUygulamasi\bin\System.Web.Helpers.xml
+c:\users\gencay\documents\visual studio 2013\Projects\ChatUygulamasi\ChatUygulamasi\bin\System.Web.Mvc.xml
+c:\users\gencay\documents\visual studio 2013\Projects\ChatUygulamasi\ChatUygulamasi\obj\Debug\ChatUygulamasi.csprojResolveAssemblyReference.cache
+c:\users\gencay\documents\visual studio 2013\Projects\ChatUygulamasi\ChatUygulamasi\obj\Debug\ChatUygulamasi.dll
+c:\users\gencay\documents\visual studio 2013\Projects\ChatUygulamasi\ChatUygulamasi\obj\Debug\ChatUygulamasi.pdb
+C:\Users\smycakir\Desktop\ChatUygulamasi\bin\ChatUygulamasi.dll.config
+C:\Users\smycakir\Desktop\ChatUygulamasi\bin\ChatUygulamasi.dll
+C:\Users\smycakir\Desktop\ChatUygulamasi\bin\ChatUygulamasi.pdb
+C:\Users\smycakir\Desktop\ChatUygulamasi\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\smycakir\Desktop\ChatUygulamasi\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\smycakir\Desktop\ChatUygulamasi\bin\Microsoft.Owin.dll
+C:\Users\smycakir\Desktop\ChatUygulamasi\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\smycakir\Desktop\ChatUygulamasi\bin\Microsoft.Owin.Security.dll
+C:\Users\smycakir\Desktop\ChatUygulamasi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\smycakir\Desktop\ChatUygulamasi\bin\Newtonsoft.Json.dll
+C:\Users\smycakir\Desktop\ChatUygulamasi\bin\Owin.dll
+C:\Users\smycakir\Desktop\ChatUygulamasi\bin\System.Web.Helpers.dll
+C:\Users\smycakir\Desktop\ChatUygulamasi\bin\System.Web.Mvc.dll
+C:\Users\smycakir\Desktop\ChatUygulamasi\bin\System.Web.Razor.dll
+C:\Users\smycakir\Desktop\ChatUygulamasi\bin\System.Web.Webpages.Deployment.dll
+C:\Users\smycakir\Desktop\ChatUygulamasi\bin\System.Web.Webpages.dll
+C:\Users\smycakir\Desktop\ChatUygulamasi\bin\System.Web.Webpages.Razor.dll
+C:\Users\smycakir\Desktop\ChatUygulamasi\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\smycakir\Desktop\ChatUygulamasi\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\smycakir\Desktop\ChatUygulamasi\bin\Microsoft.Owin.xml
+C:\Users\smycakir\Desktop\ChatUygulamasi\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\smycakir\Desktop\ChatUygulamasi\bin\Microsoft.Owin.Security.xml
+C:\Users\smycakir\Desktop\ChatUygulamasi\bin\Newtonsoft.Json.xml
+C:\Users\smycakir\Desktop\ChatUygulamasi\bin\System.Web.Razor.xml
+C:\Users\smycakir\Desktop\ChatUygulamasi\bin\System.Web.Webpages.xml
+C:\Users\smycakir\Desktop\ChatUygulamasi\bin\System.Web.Webpages.Deployment.xml
+C:\Users\smycakir\Desktop\ChatUygulamasi\bin\System.Web.Webpages.Razor.xml
+C:\Users\smycakir\Desktop\ChatUygulamasi\bin\System.Web.Helpers.xml
+C:\Users\smycakir\Desktop\ChatUygulamasi\bin\System.Web.Mvc.xml
+C:\Users\smycakir\Desktop\ChatUygulamasi\obj\Debug\ChatUygulamasi.csprojResolveAssemblyReference.cache
+C:\Users\smycakir\Desktop\ChatUygulamasi\obj\Debug\ChatUygulamasi.dll
+C:\Users\smycakir\Desktop\ChatUygulamasi\obj\Debug\ChatUygulamasi.pdb
+C:\Users\smycakir\Desktop\Chat uyg\ChatUygulamasi\bin\ChatUygulamasi.dll.config
+C:\Users\smycakir\Desktop\Chat uyg\ChatUygulamasi\bin\ChatUygulamasi.dll
+C:\Users\smycakir\Desktop\Chat uyg\ChatUygulamasi\bin\ChatUygulamasi.pdb
+C:\Users\smycakir\Desktop\Chat uyg\ChatUygulamasi\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\smycakir\Desktop\Chat uyg\ChatUygulamasi\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\smycakir\Desktop\Chat uyg\ChatUygulamasi\bin\Microsoft.Owin.dll
+C:\Users\smycakir\Desktop\Chat uyg\ChatUygulamasi\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\smycakir\Desktop\Chat uyg\ChatUygulamasi\bin\Microsoft.Owin.Security.dll
+C:\Users\smycakir\Desktop\Chat uyg\ChatUygulamasi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\smycakir\Desktop\Chat uyg\ChatUygulamasi\bin\Newtonsoft.Json.dll
+C:\Users\smycakir\Desktop\Chat uyg\ChatUygulamasi\bin\Owin.dll
+C:\Users\smycakir\Desktop\Chat uyg\ChatUygulamasi\bin\System.Web.Helpers.dll
+C:\Users\smycakir\Desktop\Chat uyg\ChatUygulamasi\bin\System.Web.Mvc.dll
+C:\Users\smycakir\Desktop\Chat uyg\ChatUygulamasi\bin\System.Web.Razor.dll
+C:\Users\smycakir\Desktop\Chat uyg\ChatUygulamasi\bin\System.Web.Webpages.Deployment.dll
+C:\Users\smycakir\Desktop\Chat uyg\ChatUygulamasi\bin\System.Web.Webpages.dll
+C:\Users\smycakir\Desktop\Chat uyg\ChatUygulamasi\bin\System.Web.Webpages.Razor.dll
+C:\Users\smycakir\Desktop\Chat uyg\ChatUygulamasi\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\smycakir\Desktop\Chat uyg\ChatUygulamasi\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\smycakir\Desktop\Chat uyg\ChatUygulamasi\bin\Microsoft.Owin.xml
+C:\Users\smycakir\Desktop\Chat uyg\ChatUygulamasi\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\smycakir\Desktop\Chat uyg\ChatUygulamasi\bin\Microsoft.Owin.Security.xml
+C:\Users\smycakir\Desktop\Chat uyg\ChatUygulamasi\bin\Newtonsoft.Json.xml
+C:\Users\smycakir\Desktop\Chat uyg\ChatUygulamasi\bin\System.Web.Razor.xml
+C:\Users\smycakir\Desktop\Chat uyg\ChatUygulamasi\bin\System.Web.Webpages.xml
+C:\Users\smycakir\Desktop\Chat uyg\ChatUygulamasi\bin\System.Web.Webpages.Deployment.xml
+C:\Users\smycakir\Desktop\Chat uyg\ChatUygulamasi\bin\System.Web.Webpages.Razor.xml
+C:\Users\smycakir\Desktop\Chat uyg\ChatUygulamasi\bin\System.Web.Helpers.xml
+C:\Users\smycakir\Desktop\Chat uyg\ChatUygulamasi\bin\System.Web.Mvc.xml
+C:\Users\smycakir\Desktop\Chat uyg\ChatUygulamasi\obj\Debug\ChatUygulamasi.csprojResolveAssemblyReference.cache
+C:\Users\smycakir\Desktop\Chat uyg\ChatUygulamasi\obj\Debug\ChatUygulamasi.dll
+C:\Users\smycakir\Desktop\Chat uyg\ChatUygulamasi\obj\Debug\ChatUygulamasi.pdb
+C:\Users\smycakir\Desktop\Chat uyg grup\ChatUygulamasi\bin\ChatUygulamasi.dll.config
+C:\Users\smycakir\Desktop\Chat uyg grup\ChatUygulamasi\bin\ChatUygulamasi.dll
+C:\Users\smycakir\Desktop\Chat uyg grup\ChatUygulamasi\bin\ChatUygulamasi.pdb
+C:\Users\smycakir\Desktop\Chat uyg grup\ChatUygulamasi\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\smycakir\Desktop\Chat uyg grup\ChatUygulamasi\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\smycakir\Desktop\Chat uyg grup\ChatUygulamasi\bin\Microsoft.Owin.dll
+C:\Users\smycakir\Desktop\Chat uyg grup\ChatUygulamasi\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\smycakir\Desktop\Chat uyg grup\ChatUygulamasi\bin\Microsoft.Owin.Security.dll
+C:\Users\smycakir\Desktop\Chat uyg grup\ChatUygulamasi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\smycakir\Desktop\Chat uyg grup\ChatUygulamasi\bin\Newtonsoft.Json.dll
+C:\Users\smycakir\Desktop\Chat uyg grup\ChatUygulamasi\bin\Owin.dll
+C:\Users\smycakir\Desktop\Chat uyg grup\ChatUygulamasi\bin\System.Web.Helpers.dll
+C:\Users\smycakir\Desktop\Chat uyg grup\ChatUygulamasi\bin\System.Web.Mvc.dll
+C:\Users\smycakir\Desktop\Chat uyg grup\ChatUygulamasi\bin\System.Web.Razor.dll
+C:\Users\smycakir\Desktop\Chat uyg grup\ChatUygulamasi\bin\System.Web.Webpages.Deployment.dll
+C:\Users\smycakir\Desktop\Chat uyg grup\ChatUygulamasi\bin\System.Web.Webpages.dll
+C:\Users\smycakir\Desktop\Chat uyg grup\ChatUygulamasi\bin\System.Web.Webpages.Razor.dll
+C:\Users\smycakir\Desktop\Chat uyg grup\ChatUygulamasi\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\smycakir\Desktop\Chat uyg grup\ChatUygulamasi\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\smycakir\Desktop\Chat uyg grup\ChatUygulamasi\bin\Microsoft.Owin.xml
+C:\Users\smycakir\Desktop\Chat uyg grup\ChatUygulamasi\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\smycakir\Desktop\Chat uyg grup\ChatUygulamasi\bin\Microsoft.Owin.Security.xml
+C:\Users\smycakir\Desktop\Chat uyg grup\ChatUygulamasi\bin\Newtonsoft.Json.xml
+C:\Users\smycakir\Desktop\Chat uyg grup\ChatUygulamasi\bin\System.Web.Razor.xml
+C:\Users\smycakir\Desktop\Chat uyg grup\ChatUygulamasi\bin\System.Web.Webpages.xml
+C:\Users\smycakir\Desktop\Chat uyg grup\ChatUygulamasi\bin\System.Web.Webpages.Deployment.xml
+C:\Users\smycakir\Desktop\Chat uyg grup\ChatUygulamasi\bin\System.Web.Webpages.Razor.xml
+C:\Users\smycakir\Desktop\Chat uyg grup\ChatUygulamasi\bin\System.Web.Helpers.xml
+C:\Users\smycakir\Desktop\Chat uyg grup\ChatUygulamasi\bin\System.Web.Mvc.xml
+C:\Users\smycakir\Desktop\Chat uyg grup\ChatUygulamasi\obj\Debug\ChatUygulamasi.csprojResolveAssemblyReference.cache
+C:\Users\smycakir\Desktop\Chat uyg grup\ChatUygulamasi\obj\Debug\ChatUygulamasi.dll
+C:\Users\smycakir\Desktop\Chat uyg grup\ChatUygulamasi\obj\Debug\ChatUygulamasi.pdb
+C:\Users\smycakir\Desktop\Yeni klasör\Chat uyg\ChatUygulamasi\bin\ChatUygulamasi.dll.config
+C:\Users\smycakir\Desktop\Yeni klasör\Chat uyg\ChatUygulamasi\bin\ChatUygulamasi.dll
+C:\Users\smycakir\Desktop\Yeni klasör\Chat uyg\ChatUygulamasi\bin\ChatUygulamasi.pdb
+C:\Users\smycakir\Desktop\Yeni klasör\Chat uyg\ChatUygulamasi\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\smycakir\Desktop\Yeni klasör\Chat uyg\ChatUygulamasi\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\smycakir\Desktop\Yeni klasör\Chat uyg\ChatUygulamasi\bin\Microsoft.Owin.dll
+C:\Users\smycakir\Desktop\Yeni klasör\Chat uyg\ChatUygulamasi\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\smycakir\Desktop\Yeni klasör\Chat uyg\ChatUygulamasi\bin\Microsoft.Owin.Security.dll
+C:\Users\smycakir\Desktop\Yeni klasör\Chat uyg\ChatUygulamasi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\smycakir\Desktop\Yeni klasör\Chat uyg\ChatUygulamasi\bin\Newtonsoft.Json.dll
+C:\Users\smycakir\Desktop\Yeni klasör\Chat uyg\ChatUygulamasi\bin\Owin.dll
+C:\Users\smycakir\Desktop\Yeni klasör\Chat uyg\ChatUygulamasi\bin\System.Web.Helpers.dll
+C:\Users\smycakir\Desktop\Yeni klasör\Chat uyg\ChatUygulamasi\bin\System.Web.Mvc.dll
+C:\Users\smycakir\Desktop\Yeni klasör\Chat uyg\ChatUygulamasi\bin\System.Web.Razor.dll
+C:\Users\smycakir\Desktop\Yeni klasör\Chat uyg\ChatUygulamasi\bin\System.Web.Webpages.Deployment.dll
+C:\Users\smycakir\Desktop\Yeni klasör\Chat uyg\ChatUygulamasi\bin\System.Web.Webpages.dll
+C:\Users\smycakir\Desktop\Yeni klasör\Chat uyg\ChatUygulamasi\bin\System.Web.Webpages.Razor.dll
+C:\Users\smycakir\Desktop\Yeni klasör\Chat uyg\ChatUygulamasi\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\smycakir\Desktop\Yeni klasör\Chat uyg\ChatUygulamasi\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\smycakir\Desktop\Yeni klasör\Chat uyg\ChatUygulamasi\bin\Microsoft.Owin.xml
+C:\Users\smycakir\Desktop\Yeni klasör\Chat uyg\ChatUygulamasi\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\smycakir\Desktop\Yeni klasör\Chat uyg\ChatUygulamasi\bin\Microsoft.Owin.Security.xml
+C:\Users\smycakir\Desktop\Yeni klasör\Chat uyg\ChatUygulamasi\bin\Newtonsoft.Json.xml
+C:\Users\smycakir\Desktop\Yeni klasör\Chat uyg\ChatUygulamasi\bin\System.Web.Razor.xml
+C:\Users\smycakir\Desktop\Yeni klasör\Chat uyg\ChatUygulamasi\bin\System.Web.Webpages.xml
+C:\Users\smycakir\Desktop\Yeni klasör\Chat uyg\ChatUygulamasi\bin\System.Web.Webpages.Deployment.xml
+C:\Users\smycakir\Desktop\Yeni klasör\Chat uyg\ChatUygulamasi\bin\System.Web.Webpages.Razor.xml
+C:\Users\smycakir\Desktop\Yeni klasör\Chat uyg\ChatUygulamasi\bin\System.Web.Helpers.xml
+C:\Users\smycakir\Desktop\Yeni klasör\Chat uyg\ChatUygulamasi\bin\System.Web.Mvc.xml
+C:\Users\smycakir\Desktop\Yeni klasör\Chat uyg\ChatUygulamasi\obj\Debug\ChatUygulamasi.csprojResolveAssemblyReference.cache
+C:\Users\smycakir\Desktop\Yeni klasör\Chat uyg\ChatUygulamasi\obj\Debug\ChatUygulamasi.dll
+C:\Users\smycakir\Desktop\Yeni klasör\Chat uyg\ChatUygulamasi\obj\Debug\ChatUygulamasi.pdb
+D:\YAZLAB PROJE\Chat uyg\ChatUygulamasi\bin\ChatUygulamasi.dll.config
+D:\YAZLAB PROJE\Chat uyg\ChatUygulamasi\bin\ChatUygulamasi.dll
+D:\YAZLAB PROJE\Chat uyg\ChatUygulamasi\bin\ChatUygulamasi.pdb
+D:\YAZLAB PROJE\Chat uyg\ChatUygulamasi\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\YAZLAB PROJE\Chat uyg\ChatUygulamasi\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\YAZLAB PROJE\Chat uyg\ChatUygulamasi\bin\Microsoft.Owin.dll
+D:\YAZLAB PROJE\Chat uyg\ChatUygulamasi\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\YAZLAB PROJE\Chat uyg\ChatUygulamasi\bin\Microsoft.Owin.Security.dll
+D:\YAZLAB PROJE\Chat uyg\ChatUygulamasi\bin\Microsoft.Web.Infrastructure.dll
+D:\YAZLAB PROJE\Chat uyg\ChatUygulamasi\bin\Newtonsoft.Json.dll
+D:\YAZLAB PROJE\Chat uyg\ChatUygulamasi\bin\Owin.dll
+D:\YAZLAB PROJE\Chat uyg\ChatUygulamasi\bin\System.Web.Helpers.dll
+D:\YAZLAB PROJE\Chat uyg\ChatUygulamasi\bin\System.Web.Mvc.dll
+D:\YAZLAB PROJE\Chat uyg\ChatUygulamasi\bin\System.Web.Razor.dll
+D:\YAZLAB PROJE\Chat uyg\ChatUygulamasi\bin\System.Web.Webpages.Deployment.dll
+D:\YAZLAB PROJE\Chat uyg\ChatUygulamasi\bin\System.Web.Webpages.dll
+D:\YAZLAB PROJE\Chat uyg\ChatUygulamasi\bin\System.Web.Webpages.Razor.dll
+D:\YAZLAB PROJE\Chat uyg\ChatUygulamasi\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\YAZLAB PROJE\Chat uyg\ChatUygulamasi\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\YAZLAB PROJE\Chat uyg\ChatUygulamasi\bin\Microsoft.Owin.xml
+D:\YAZLAB PROJE\Chat uyg\ChatUygulamasi\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\YAZLAB PROJE\Chat uyg\ChatUygulamasi\bin\Microsoft.Owin.Security.xml
+D:\YAZLAB PROJE\Chat uyg\ChatUygulamasi\bin\Newtonsoft.Json.xml
+D:\YAZLAB PROJE\Chat uyg\ChatUygulamasi\bin\System.Web.Razor.xml
+D:\YAZLAB PROJE\Chat uyg\ChatUygulamasi\bin\System.Web.Webpages.xml
+D:\YAZLAB PROJE\Chat uyg\ChatUygulamasi\bin\System.Web.Webpages.Deployment.xml
+D:\YAZLAB PROJE\Chat uyg\ChatUygulamasi\bin\System.Web.Webpages.Razor.xml
+D:\YAZLAB PROJE\Chat uyg\ChatUygulamasi\bin\System.Web.Helpers.xml
+D:\YAZLAB PROJE\Chat uyg\ChatUygulamasi\bin\System.Web.Mvc.xml
+D:\YAZLAB PROJE\Chat uyg\ChatUygulamasi\obj\Debug\ChatUygulamasi.csprojResolveAssemblyReference.cache
+D:\YAZLAB PROJE\Chat uyg\ChatUygulamasi\obj\Debug\ChatUygulamasi.dll
+D:\YAZLAB PROJE\Chat uyg\ChatUygulamasi\obj\Debug\ChatUygulamasi.pdb
+C:\Users\USER\Desktop\Chat uyg\ChatUygulamasi\bin\ChatUygulamasi.dll.config
+C:\Users\USER\Desktop\Chat uyg\ChatUygulamasi\bin\ChatUygulamasi.dll
+C:\Users\USER\Desktop\Chat uyg\ChatUygulamasi\bin\ChatUygulamasi.pdb
+C:\Users\USER\Desktop\Chat uyg\ChatUygulamasi\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\USER\Desktop\Chat uyg\ChatUygulamasi\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\USER\Desktop\Chat uyg\ChatUygulamasi\bin\Microsoft.Owin.dll
+C:\Users\USER\Desktop\Chat uyg\ChatUygulamasi\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\USER\Desktop\Chat uyg\ChatUygulamasi\bin\Microsoft.Owin.Security.dll
+C:\Users\USER\Desktop\Chat uyg\ChatUygulamasi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\USER\Desktop\Chat uyg\ChatUygulamasi\bin\Newtonsoft.Json.dll
+C:\Users\USER\Desktop\Chat uyg\ChatUygulamasi\bin\Owin.dll
+C:\Users\USER\Desktop\Chat uyg\ChatUygulamasi\bin\System.Web.Helpers.dll
+C:\Users\USER\Desktop\Chat uyg\ChatUygulamasi\bin\System.Web.Mvc.dll
+C:\Users\USER\Desktop\Chat uyg\ChatUygulamasi\bin\System.Web.Razor.dll
+C:\Users\USER\Desktop\Chat uyg\ChatUygulamasi\bin\System.Web.Webpages.Deployment.dll
+C:\Users\USER\Desktop\Chat uyg\ChatUygulamasi\bin\System.Web.Webpages.dll
+C:\Users\USER\Desktop\Chat uyg\ChatUygulamasi\bin\System.Web.Webpages.Razor.dll
+C:\Users\USER\Desktop\Chat uyg\ChatUygulamasi\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\USER\Desktop\Chat uyg\ChatUygulamasi\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\USER\Desktop\Chat uyg\ChatUygulamasi\bin\Microsoft.Owin.xml
+C:\Users\USER\Desktop\Chat uyg\ChatUygulamasi\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\USER\Desktop\Chat uyg\ChatUygulamasi\bin\Microsoft.Owin.Security.xml
+C:\Users\USER\Desktop\Chat uyg\ChatUygulamasi\bin\Newtonsoft.Json.xml
+C:\Users\USER\Desktop\Chat uyg\ChatUygulamasi\bin\System.Web.Razor.xml
+C:\Users\USER\Desktop\Chat uyg\ChatUygulamasi\bin\System.Web.Webpages.xml
+C:\Users\USER\Desktop\Chat uyg\ChatUygulamasi\bin\System.Web.Webpages.Deployment.xml
+C:\Users\USER\Desktop\Chat uyg\ChatUygulamasi\bin\System.Web.Webpages.Razor.xml
+C:\Users\USER\Desktop\Chat uyg\ChatUygulamasi\bin\System.Web.Helpers.xml
+C:\Users\USER\Desktop\Chat uyg\ChatUygulamasi\bin\System.Web.Mvc.xml
+C:\Users\USER\Desktop\Chat uyg\ChatUygulamasi\obj\Debug\ChatUygulamasi.csprojResolveAssemblyReference.cache
+C:\Users\USER\Desktop\Chat uyg\ChatUygulamasi\obj\Debug\ChatUygulamasi.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Chat uyg\ChatUygulamasi\obj\Debug\ChatUygulamasi.dll
+C:\Users\USER\Desktop\Chat uyg\ChatUygulamasi\obj\Debug\ChatUygulamasi.pdb
